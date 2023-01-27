@@ -1,0 +1,222 @@
+* {
+    font-family: "Poppins";
+}
+
+header {
+    background: #264653;
+
+}
+
+/* nav */
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* font-feature-settings: 'liga' off; */
+    color: #FFFFFF;
+}
+
+nav .btn {
+    background: #E76F51;
+    color: #FFFFFF;
+}
+
+/* banner */
+section.banner section.row section.description h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+section.banner section.row section.description article {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #E0E0E0;
+}
+
+section.banner section.row section.description a {
+    background: #E76F51;
+    color: #FFFFFF;
+}
+
+
+
+
+/* main */
+section.featured {
+    margin-bottom: 125px;
+}
+
+section.featured h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* text-align: center; */
+    color: #000000;
+
+}
+
+section.featured p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #E76F51;
+}
+
+section.featured div.row img {
+    width: 250px;
+}
+
+.a,
+.b {
+    filter: saturate(0);
+}
+
+section.latest div div {
+    width: 364px;
+}
+
+section.latest div div h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: black;
+}
+
+section.latest div div article {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+section.latest div div a {
+    background: #E76F51;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+section.happy div div {
+    width: 345px;
+}
+
+.m {
+    /* background: #E77C40; */
+    color: #E77C40;
+    ;
+}
+
+.x {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px;
+
+    /* primary-color */
+
+    color: #23A6F0;
+}
+
+section.happy div div p.y {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.2px;
+
+    /* text-color */
+
+    color: #252B42;
+}
+
+
+
+section.frequently section h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    /* identical to box height, or 104% */
+
+    text-align: center;
+
+    color: #0D0925;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #0B0D17;
+
+}
+
+footer section section div ul.a li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Default / White */
+    padding-left: 0;
+    color: #FFFFFF;
+}
+
+footer section section div ul.b li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Default / White */
+
+    color: #FFFFFF;
+    padding-left: 0;
+}
+
+footer section section div p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'liga' off;
+
+    /* Default / White */
+
+    color: #FFFFFF;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    section.frequently section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.frequently section h1{
+        font-size: 35px;
+        
+    }
+    
+    
+    
+    section.frequently section div div{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    
+}
