@@ -220,3 +220,19 @@ footer section section div p {
     }
     
 }
+@media screen and (min-width:481px) and (max-width:739px) {
+
+
+    section.frequently section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.frequently section div div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
